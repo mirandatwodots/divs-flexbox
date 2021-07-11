@@ -111,7 +111,8 @@ body {
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  display:flex;
+  display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   font-weight: 700;
 
@@ -119,20 +120,58 @@ body {
 
 .div-1, .div-2, .div-3 {
   width: 30%;
-  display:flex;
-  justify-content: center;
-  align-items: stretch;
-  margin: 0 1em 0 1em;
-  padding: 0 1.5em 0 1.5em;
+  ddisplay: flex;
+  flex: 1;
+  justify-content: space-between;
+  dalign-items: center;
+  margin: 3em 0 3em 0;
+  dpadding: 0 1.5em 0 1.5em;
   color: #fff;
   line-height: 1.5em;
   font-size: 1.3em;
   text-align: center;
-  background-color: #f16059;
+  background-color: #f2756f;
   border-radius: 1em;
 
-
 }
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content:flex-start;
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.3em;
+  background-color: #f2756f;
+  margin: 0 0 2em 0;
+  padding: 1em 0 1em 0;
+  border-radius: .3em;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.3em;
+  background-color: #f2756f;
+  border-radius: .3em;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content:flex-start;
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.3em;
+  background-color: #f2756f;
+  border-radius: .3em;
+  padding: .5em 0 .5em 0;
+}
+}
+
 
 
 
